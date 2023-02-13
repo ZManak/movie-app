@@ -55,4 +55,4 @@ app.use('/favmovies', check.isAuth, favMoviesRoutes);
 
 app.listen(port, () => {
     console.log(`server running on http://localhost:${port}`)
-})
+});
